@@ -1,2 +1,2 @@
-# 100_Days_of_Python
-Here I try 100 different python projects, one per day
+# 100_Projects_of_Python
+Here I try 100 different Python projects, one per day
