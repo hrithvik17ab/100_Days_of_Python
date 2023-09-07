@@ -6,5 +6,6 @@ tip_amount = float(bill) * (float(tip) / 100)
 total_amount = float(bill) + tip_amount
 
 split_amount = total_amount / int(people)
-
-print(f"Each person should pay: ${split_amount}")
+split_amount_rounded = round(split_amount, 2) 
+split_amount_rounded = "{:.2f}".format(split_amount_rounded)
+print(f"Each person should pay: ${split_amount_rounded}")
